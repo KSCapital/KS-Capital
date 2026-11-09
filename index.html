@@ -8,7 +8,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="KS Capital | Independent Financial Advisory">
   <meta property="og:description" content="Private credit, thoughtfully originated. Independent financial advisory in Thailand.">
-  <meta property="og:image" content="assets/hero-bangkok.jpg">
+  <meta property="og:image" content="assets/hero-bangkok.webp">
   <title>KS Capital — Independent Financial Advisory | Private Credit Origination</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,7 +43,7 @@
   .menu-btn span{position:absolute;left:7px;width:28px;height:1px;background:#efefed;transition:transform .25s,top .25s}.menu-btn span:first-child{top:14px}.menu-btn span:last-child{top:25px}
   .menu-open .menu-btn span:first-child{top:20px;transform:rotate(45deg)}.menu-open .menu-btn span:last-child{top:20px;transform:rotate(-45deg)}
   .hero{height:min(960px,100svh);min-height:650px;position:relative;display:flex;align-items:center;color:#fff;background:#092132;overflow:hidden}
-  .hero-bg{position:absolute;inset:0;background:url('assets/hero-bangkok.jpg') center 53%/cover no-repeat;transform:scale(1.025);animation:heroReveal 1.4s ease-out both}
+  .hero-bg{position:absolute;inset:0;background:url('assets/hero-bangkok.webp') center 53%/cover no-repeat;transform:scale(1.025);animation:heroReveal 1.4s ease-out both}
   .hero::before{content:'';position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(5,21,32,.84) 0%,rgba(5,21,32,.64) 33%,rgba(6,23,37,.18) 70%),linear-gradient(0deg,rgba(2,16,26,.6),transparent 35%)}
   .hero-inner{position:relative;z-index:2;padding-top:80px;padding-bottom:35px}
   .hero h1{font:400 clamp(53px,5.7vw,94px)/1.13 var(--serif);letter-spacing:-.055em;max-width:750px;margin:35px 0 27px;text-wrap:balance}
@@ -67,11 +67,11 @@
   .section-heading .aside{max-width:390px;color:#738087;font-size:13px;line-height:1.85;margin-bottom:7px}
   .service-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:19px}
   .service-card{position:relative;min-height:480px;overflow:hidden;background:#132939;color:#fff}
-  .service-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .8s ease;filter:saturate(.72)}.service-card:hover img{transform:scale(1.055)}
+  .service-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .8s ease;filter:saturate(.72)}.service-card:hover img{transform:scale(1.035)}
   .service-card::after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,rgba(4,23,34,.9),rgba(4,23,34,.04) 75%)}
   .service-card.primary img{object-position:center 45%}.service-card:nth-child(3) img{object-position:right center}
   .service-card .service-content{position:absolute;inset:auto 29px 32px;z-index:2}
-  .service-number{font-size:10px;letter-spacing:.2em;color:#e3c391;margin-bottom:15px}.service-content h3{font:400 clamp(25px,2.45vw,38px)/1.25 var(--serif);letter-spacing:-.04em;margin:0 0 13px}
+  .service-number{font-size:10px;letter-spacing:.2em;color:#e3c391;margin-bottom:15px}.service-content h3{font:400 clamp(25px,2.35vw,37px)/1.28 var(--serif);letter-spacing:-.025em;margin:0 0 13px}
   .service-content p{font-size:12px;line-height:1.8;color:#d5dde1;max-width:320px;margin:0 0 17px}
   .service-content .mini-link{display:inline-flex;gap:18px;align-items:center;font-size:10px;letter-spacing:.17em;color:#e9c999;text-transform:uppercase}
   .service-subnote{font-size:11px;line-height:1.85;color:#78838a;padding:23px 0 0}
@@ -112,7 +112,7 @@
   .timing-note{font-size:11px;line-height:2;color:#778188;margin:29px 0 0;max-width:920px}
   .work{padding:135px 0 140px;background:var(--paper)}
   .work-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:65px}
-  .work-image{height:390px;overflow:hidden;background:#becad2}.work-image img{width:100%;height:100%;object-fit:cover;transition:transform .6s;filter:saturate(.7)}.work-card:hover .work-image img{transform:scale(1.045)}
+  .work-image{height:390px;overflow:hidden;background:#becad2}.work-image img{width:100%;height:100%;object-fit:cover;transition:transform .6s;filter:saturate(.92) contrast(1.04)}.work-card:hover .work-image img{transform:scale(1.045)}
   .work-meta{display:flex;gap:17px;align-items:center;justify-content:space-between;padding:24px 0;border-bottom:1px solid #dcdedc}
   .work-meta h3{margin:0;font:400 24px/1.3 var(--serif);letter-spacing:-.025em}.work-meta span{font-size:10px;text-transform:uppercase;letter-spacing:.13em;color:#81704f}
   .work-caption{color:#748087;font-size:12px;line-height:1.9;margin-top:15px}
@@ -133,12 +133,153 @@
   @media(max-width:760px){.container{width:calc(100% - 42px)}.nav,.nav.is-scrolled,.nav.menu-open{height:72px}.brand{min-width:0;gap:9px}.brand-emblem{height:30px;width:30px}.brand-name{font-size:22px}.nav-cta{display:none}.menu-btn{display:block}.nav-right{gap:14px}.navlinks{display:none;position:absolute;top:72px;left:0;right:0;padding:24px 24px 34px;background:#071b29;flex-direction:column;align-items:flex-start;gap:23px;border-top:1px solid #36515b;box-shadow:0 12px 22px #0004}.menu-open .navlinks{display:flex}.navlinks a{font-size:13px;width:100%}.hero{min-height:640px;height:92svh;max-height:900px}.hero-bg{background-position:65% center}.hero::before{background:linear-gradient(90deg,rgba(4,19,30,.77),rgba(4,19,30,.23)),linear-gradient(0deg,rgba(2,16,27,.65),transparent 70%)}.hero-inner{padding-top:50px}.hero h1{font-size:clamp(46px,10.7vw,69px);max-width:530px;margin:26px 0 23px}.hero-intro{font-size:13px;line-height:1.9;max-width:340px;margin-bottom:25px}.hero-cta{padding:16px 18px;min-width:204px}.hero-bottom{bottom:23px}.hero-bottom .side-no{display:none}.intro{padding:83px 0 92px}.intro-grid{grid-template-columns:1fr;gap:26px}.intro-title{font-size:clamp(36px,8vw,53px);margin-bottom:23px}.intro .eyebrow{margin:0}.intro-text p{font-size:13px}.services{padding:84px 0 96px}.section-heading{display:block;margin-bottom:37px}.section-heading h2{font-size:42px}.section-heading .aside{margin-top:21px;font-size:12px}.service-grid{display:block}.service-card,.service-card.primary,.service-card:not(.primary){height:390px;min-height:0;margin-bottom:15px}.service-card .service-content{inset:auto 24px 28px}.service-content h3{font-size:31px}.service-subnote{padding-top:6px}.experience{padding:90px 0 95px}.experience-grid{display:flex;flex-direction:column;align-items:stretch;gap:38px}.experience-photo{height:410px;min-height:0;order:2}.experience-copy{order:1}.experience-copy h2{font-size:43px}.credentials{margin-top:27px}.process{padding:87px 0 92px}.process-heading{display:block;margin-bottom:42px}.process-heading h2{font-size:45px}.process-heading p{margin-top:19px;font-size:13px}.process-step summary{grid-template-columns:38px 1fr 28px;gap:9px;padding:24px 0}.process-step .step-title{font-size:22px}.process-step .step-owner{display:none}.process-step .plus{width:24px;height:24px}.process-step .plus:before,.process-step .plus:after{left:7px;top:11px}.process-step .step-detail{padding:0 24px 24px 47px;font-size:12px}.timing{padding:75px 0 78px}.timing-grid{grid-template-columns:1fr 1fr;gap:32px 16px}.timing-grid>div:first-child{grid-column:span 2}.timing-metric{padding-left:18px;min-height:104px}.timing-metric .number{font-size:39px}.timing-metric .number span{font-size:11px}.timing-note{font-size:10px;margin-top:25px}.work{padding:83px 0 98px}.work-grid{grid-template-columns:1fr;gap:35px;margin-top:38px}.work-image{height:300px}.work-meta h3{font-size:23px}.cta-section{padding:93px 0 91px}.cta-inner{display:block}.cta-inner h2{font-size:clamp(43px,9vw,60px)}.cta-inner p{font-size:12px}.outline-link{margin-top:31px;padding:21px 23px;gap:45px}.footer-top,.footer-bottom{display:block}.footer-nav{margin-top:20px;flex-wrap:wrap}.footer-bottom>*+*{margin-top:14px}}
   @media(max-width:390px){.brand-name{font-size:20px}.hero h1{font-size:46px}.hero-intro{max-width:300px}.service-card{height:360px}}
   @media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
-  </style>
+
+  /* REFINEMENT: Larger, more legible supporting text; editorial headings unchanged. */
+  body{font-size:16px}
+  section[id]{scroll-margin-top:95px}
+  .eyebrow{font-size:12px;letter-spacing:.18em}
+  .navlinks a{font-size:13px;letter-spacing:.075em}
+  .lang-switch,.lang-switch button{font-size:13px}
+  .nav-cta{font-size:12px;letter-spacing:.095em}
+  .hero-intro{font-size:18px;line-height:1.8;font-weight:400;max-width:530px}
+  .hero-cta{font-size:13px;letter-spacing:.1em}
+  .hero-bottom,.side-no{font-size:12px;letter-spacing:.11em}
+  .intro-text p{font-size:17px;line-height:1.85;color:#50616a;max-width:610px}
+  .text-link{font-size:13px;letter-spacing:.1em}
+  .section-heading .aside{font-size:16px;line-height:1.8;color:#54656e}
+  .service-number{font-size:12px;letter-spacing:.13em}
+  .service-content p{font-size:16px;line-height:1.72;color:#e5ecef;max-width:355px}
+  .service-content .mini-link{font-size:12px;letter-spacing:.1em;font-weight:700}
+  .service-subnote{font-size:15px;line-height:1.85;color:#576770}
+  .experience-copy>p{font-size:17px;line-height:1.83;color:#54656c;max-width:550px}
+  .credential-index{font-size:13px}
+  .credential strong{font-size:17px;line-height:1.5}
+  .credential p{font-size:15.5px;line-height:1.75;color:#586a73}
+  .process-heading p{font-size:17px;line-height:1.82;color:#d2dfe5;max-width:495px}
+  .process-step .step-no{font-size:14px}
+  .process-step .step-owner{font-size:12px;letter-spacing:.105em;color:#c4d3da}
+  .process-step .step-detail{font-size:16px;line-height:1.86;color:#d3dfe4}
+  .process-note{font-size:14px;line-height:1.8;color:#becfd7}
+  .timing-metric .cap{font-size:12px;letter-spacing:.105em;color:#53646d}
+  .timing-metric .number span{font-size:17px;color:#53646d}
+  .timing-note{font-size:15px;line-height:1.8;color:#53646d}
+  .work-meta span{font-size:12px;letter-spacing:.09em;color:#78653e}
+  .work-caption{font-size:16px;line-height:1.85;color:#52646d}
+  .cta-inner p{font-size:17px;line-height:1.85;color:#ccdae0}
+  .outline-link{font-size:13px;letter-spacing:.09em}
+  footer{font-size:14px;line-height:1.7;color:#b6c6cf}
+  .footer-bottom{line-height:1.85}
+  @media(max-width:1100px){
+    .navlinks a{font-size:12px}
+    .service-card.primary{min-height:485px}
+    .service-card:not(.primary){min-height:440px}
+  }
+  @media(max-width:760px){
+    body{font-size:16px}
+    section[id]{scroll-margin-top:74px}
+    .eyebrow{font-size:11.5px;letter-spacing:.13em}
+    .navlinks a{font-size:16px}
+    .lang-switch,.lang-switch button{font-size:14px}
+    .hero-intro{font-size:16px;line-height:1.75;max-width:370px}
+    .hero-cta{font-size:13px}
+    .hero-bottom,.side-no{font-size:10.5px}
+    .intro-text p{font-size:16px;line-height:1.85}
+    .section-heading .aside{font-size:16px;line-height:1.75}
+    .service-card,.service-card.primary,.service-card:not(.primary){height:425px;min-height:0}
+    .service-number{font-size:12px}
+    .service-content p{font-size:15px;line-height:1.65;max-width:330px}
+    .service-content .mini-link{font-size:12px}
+    .service-subnote{font-size:14px;line-height:1.8}
+    .experience-copy>p{font-size:16px;line-height:1.8}
+    .credential strong{font-size:16px}
+    .credential p{font-size:15px}
+    .process-heading p{font-size:16px;line-height:1.75}
+    .process-step .step-detail{font-size:15px;line-height:1.75}
+    .process-note{font-size:14px;line-height:1.75}
+    .timing-metric .cap{font-size:12px;letter-spacing:.07em}
+    .timing-metric .number span{font-size:15px}
+    .timing-note{font-size:14px;line-height:1.8}
+    .work-meta span{font-size:12px}
+    .work-caption{font-size:15px}
+    .cta-inner p{font-size:16px;line-height:1.8}
+    .outline-link{font-size:13px}
+    footer{font-size:14px}
+  }
+  @media(max-width:390px){
+    .hero-intro{font-size:16px}
+    .hero-bottom{font-size:10px}
+    .service-card,.service-card.primary,.service-card:not(.primary){height:420px}
+  }
+  
+/* Final accessibility pass: notably larger secondary typography and readable contrast. */
+:root{--copy-size:19px}
+body{font-size:19px}
+.navlinks a{font-size:15px;letter-spacing:.035em}
+.lang-switch,.lang-switch button{font-size:15px}
+.nav-cta,.hero-cta,.outline-link{font-size:15px;letter-spacing:.055em}
+.eyebrow,.hero-bottom,.side-no{font-size:14px;letter-spacing:.10em}
+.hero-intro{font-size:21px;line-height:1.65;max-width:600px;color:#f0f4f6}
+.intro-text p{font-size:20px;line-height:1.75;color:#42545e;max-width:680px}
+.text-link{font-size:15px}
+.section-heading .aside{font-size:19px;line-height:1.7;color:#485963;max-width:470px}
+.service-number{font-size:15px;letter-spacing:.075em}
+.service-content p{font-size:18px;line-height:1.62;color:#eef4f7;max-width:430px}
+.service-content .mini-link{font-size:15px;letter-spacing:.045em}
+.service-subnote{font-size:18px;line-height:1.75;color:#4e6068}
+.experience-copy>p{font-size:20px;line-height:1.75;color:#465963;max-width:640px}
+.credential-index{font-size:16px}
+.credential strong{font-size:20px}
+.credential p{font-size:18px;line-height:1.7;color:#4b5e67}
+.process-heading p{font-size:20px;line-height:1.7;color:#e0eaf0;max-width:540px}
+.process-step .step-no{font-size:17px}
+.process-step .step-owner{font-size:15px;letter-spacing:.06em;color:#d4e0e6}
+.process-step .step-detail{font-size:18px;line-height:1.75;color:#edf3f6}
+.process-note{font-size:17px;line-height:1.7;color:#d8e4e9}
+.timing-metric .cap{font-size:15px;letter-spacing:.06em;color:#475963}
+.timing-metric .number span{font-size:19px;color:#475963}
+.timing-note{font-size:18px;line-height:1.7;color:#455962}
+.work-meta span{font-size:15px;letter-spacing:.055em;color:#6b542e}
+.work-caption{font-size:19px;line-height:1.7;color:#445761}
+.cta-inner p{font-size:20px;line-height:1.7;color:#e0e9ee}
+footer{font-size:17px;line-height:1.75;color:#dae4ea}
+.experience-photo img{object-position:center center;filter:saturate(.82) contrast(1.06)}
+@media(max-width:1100px){.navlinks a{font-size:14px}.service-card.primary{min-height:510px}.service-card:not(.primary){min-height:460px}}
+@media(max-width:760px){
+ body{font-size:17px}
+ .navlinks a{font-size:17px}.lang-switch,.lang-switch button{font-size:16px}
+ .eyebrow,.hero-bottom,.side-no{font-size:13px;letter-spacing:.07em}
+ .hero-intro{font-size:18px;line-height:1.65;max-width:370px}
+ .hero-cta,.outline-link{font-size:14px}
+ .intro-text p,.section-heading .aside{font-size:18px;line-height:1.7}
+ .service-card,.service-card.primary,.service-card:not(.primary){height:465px;min-height:0}
+ .service-number{font-size:14px}
+ .service-content p{font-size:17px;line-height:1.65;max-width:350px}
+ .service-content .mini-link{font-size:14px}
+ .service-subnote{font-size:17px}
+ .experience-copy>p{font-size:18px;line-height:1.7}
+ .credential strong{font-size:18px}.credential p{font-size:17px}
+ .process-heading p{font-size:18px;line-height:1.65}
+ .process-step .step-detail{font-size:17px;line-height:1.7}
+ .process-note{font-size:16px}
+ .timing-metric .cap{font-size:14px}.timing-metric .number span{font-size:17px}
+ .timing-note{font-size:16px}
+ .work-meta span{font-size:14px}.work-caption{font-size:18px}
+ .cta-inner p{font-size:18px}.outline-link{font-size:14px}
+ footer{font-size:16px}
+ .experience-photo{height:480px}
+}
+@media(max-width:390px){
+ .service-card,.service-card.primary,.service-card:not(.primary){height:460px}
+ .service-content p{font-size:16px}
+ .hero-intro{font-size:17px}
+}
+
+</style>
 </head>
 <body>
   <nav class="nav" id="site-nav" aria-label="Primary navigation">
     <div class="container nav-inner">
-      <a class="brand" href="#top" aria-label="KS Capital home"><img class="brand-emblem" src="assets/ks-emblem.png" alt=""><span class="brand-name">KS Capital</span></a>
+      <a class="brand" href="#top" aria-label="KS Capital home"><img class="brand-emblem" src="assets/ks-emblem.png" decoding="async" alt=""><span class="brand-name">KS Capital</span></a>
       <div class="navlinks" id="navlinks">
         <a href="#about" data-en="About" data-th="เกี่ยวกับเรา">About</a>
         <a href="#services" data-en="Expertise" data-th="บริการ">Expertise</a>
@@ -177,20 +318,20 @@
       <div class="container">
         <div class="section-heading"><div><div class="eyebrow dark" data-en="WHAT WE DO" data-th="สิ่งที่เราทำ">WHAT WE DO</div><h2 id="service-title" data-en="Our expertise." data-th="บริการของเรา">Our expertise.</h2></div><p class="aside" data-en="Focused origination at the core, supported by a broader corporate finance skill set." data-th="เน้น Private Credit Origination เป็นบริการหลัก และใช้ความเชี่ยวชาญด้าน Corporate Finance สนับสนุน">Focused origination at the core, supported by a broader corporate finance skill set.</p></div>
         <div class="service-grid">
-          <a class="service-card primary" href="#process"><img loading="lazy" src="assets/architecture-stone.jpg" alt="Quiet contemporary stone architecture"><div class="service-content"><div class="service-number">01 / CORE FOCUS</div><h3 data-en="Private Credit<br>Origination" data-th="Private Credit<br>Origination">Private Credit<br>Origination</h3><p data-en="Initial screening, credit analysis, facility structuring and selective investor matching." data-th="คัดกรอง วิเคราะห์เครดิต วางโครงสร้างสินเชื่อ และคัดเลือกผู้ให้ทุนที่เหมาะสม">Initial screening, credit analysis, facility structuring and selective investor matching.</p><span class="mini-link"><span data-en="Explore our process" data-th="ดูขั้นตอนทำงาน">Explore our process</span><span aria-hidden="true">↗</span></span></div></a>
-          <a class="service-card" href="#contact"><img loading="lazy" src="assets/operations.jpg" alt="Contemporary operating and logistics architecture"><div class="service-content"><div class="service-number">02 / ADVISORY</div><h3 data-en="M&amp;A &amp;<br>Transactions" data-th="M&amp;A และ<br>ธุรกรรม">M&amp;A &amp;<br>Transactions</h3><p data-en="Transaction assessment, financial analysis and advisory support." data-th="ประเมินธุรกรรม วิเคราะห์การเงิน และให้คำปรึกษาในการทำดีล">Transaction assessment, financial analysis and advisory support.</p><span class="mini-link" data-en="Discuss an opportunity ↗" data-th="ปรึกษาธุรกรรม ↗">Discuss an opportunity ↗</span></div></a>
-          <a class="service-card" href="#contact"><img loading="lazy" src="assets/architecture-glass.jpg" alt="Modern glass building with golden reflections"><div class="service-content"><div class="service-number">03 / ADVISORY</div><h3 data-en="Strategy &amp;<br>Valuation" data-th="กลยุทธ์และ<br>ประเมินมูลค่า">Strategy &amp;<br>Valuation</h3><p data-en="Financial modeling, valuation, feasibility and capital planning." data-th="แบบจำลองทางการเงิน การประเมินมูลค่า การศึกษาความเป็นไปได้ และแผนเงินทุน">Financial modeling, valuation, feasibility and capital planning.</p><span class="mini-link" data-en="Start a conversation ↗" data-th="เริ่มต้นพูดคุย ↗">Start a conversation ↗</span></div></a>
+          <a class="service-card primary" href="#process"><img loading="lazy" src="assets/architecture-stone.webp" decoding="async" alt="Quiet contemporary stone architecture"><div class="service-content"><div class="service-number">01 / CORE FOCUS</div><h3 data-en="Private Credit<br>Origination" data-th="Private Credit<br>Origination">Private Credit<br>Origination</h3><p data-en="Initial screening, credit analysis, facility structuring and selective investor matching." data-th="คัดกรอง วิเคราะห์เครดิต วางโครงสร้างสินเชื่อ และคัดเลือกผู้ให้ทุนที่เหมาะสม">Initial screening, credit analysis, facility structuring and selective investor matching.</p><span class="mini-link"><span data-en="Explore our process" data-th="ดูขั้นตอนทำงาน">Explore our process</span><span aria-hidden="true">↗</span></span></div></a>
+          <a class="service-card" href="#contact"><img loading="lazy" src="assets/operations.webp?v=2" decoding="async" alt="Contemporary operating and logistics architecture"><div class="service-content"><div class="service-number">02 / ADVISORY</div><h3 data-en="Transaction<br>Advisory" data-th="ที่ปรึกษา<br>ธุรกรรม">Transaction<br>Advisory</h3><p data-en="Transaction assessment, financial analysis and advisory support." data-th="ประเมินธุรกรรม วิเคราะห์การเงิน และให้คำปรึกษาในการทำดีล">Transaction assessment, financial analysis and advisory support.</p><span class="mini-link" data-en="Discuss an opportunity ↗" data-th="ปรึกษาธุรกรรม ↗">Discuss an opportunity ↗</span></div></a>
+          <a class="service-card" href="#contact"><img loading="lazy" src="assets/architecture-glass.webp?v=2" decoding="async" alt="Modern glass building with golden reflections"><div class="service-content"><div class="service-number">03 / ADVISORY</div><h3 data-en="Strategy<br>and Valuation" data-th="กลยุทธ์และ<br>ประเมินมูลค่า">Strategy<br>and Valuation</h3><p data-en="Financial modeling, valuation, feasibility and capital planning." data-th="แบบจำลองทางการเงิน การประเมินมูลค่า การศึกษาความเป็นไปได้ และแผนเงินทุน">Financial modeling, valuation, feasibility and capital planning.</p><span class="mini-link" data-en="Start a conversation ↗" data-th="เริ่มต้นพูดคุย ↗">Start a conversation ↗</span></div></a>
         </div>
         <p class="service-subnote" data-en="Every engagement begins with a clear understanding of the client's needs. Financing opportunities are considered against external capital providers' independent criteria." data-th="ทุกงานเริ่มต้นจากการทำความเข้าใจความต้องการของลูกค้า โดยผู้ให้ทุนแต่ละรายมีเกณฑ์พิจารณาและการตัดสินใจเป็นอิสระ">Every engagement begins with a clear understanding of the client's needs. Financing opportunities are considered against external capital providers' independent criteria.</p>
       </div>
     </section>
     <section class="experience" id="experience" aria-labelledby="experience-title">
       <div class="container experience-grid">
-        <div class="experience-photo"><img loading="lazy" src="assets/mountains.jpg" alt="Layered mountain peaks above cloud cover"></div>
+        <div class="experience-photo"><img loading="lazy" src="assets/mountains.webp" decoding="async" alt="Layered mountain peaks above cloud cover"></div>
         <div class="experience-copy"><div class="eyebrow dark" data-en="THE EXPERIENCE BEHIND THE WORK" data-th="ประสบการณ์เบื้องหลังการทำงาน">THE EXPERIENCE BEHIND THE WORK</div><h2 id="experience-title" data-en="A considered approach.<br>Grounded in experience." data-th="มุมมองที่รอบคอบ<br>บนพื้นฐานประสบการณ์">A considered approach.<br>Grounded in experience.</h2><p data-en="Our advisory team draws on experience in listed-company strategy, Big Four audit environments, investment analysis and complex transaction execution. We bring this perspective to each client's financing needs." data-th="ทีมที่ปรึกษามีประสบการณ์ด้านกลยุทธ์ในบริษัทจดทะเบียน สภาพแวดล้อมงานตรวจสอบบัญชี Big Four การวิเคราะห์การลงทุน และการดำเนินธุรกรรมที่ซับซ้อน เพื่อนำมาประยุกต์ใช้กับความต้องการเงินทุนของลูกค้า">Our advisory team draws on experience in listed-company strategy, Big Four audit environments, investment analysis and complex transaction execution. We bring this perspective to each client's financing needs.</p>
           <div class="credentials">
-            <div class="credential"><span class="credential-index">01</span><div><strong data-en="Corporate &amp; transaction advisory" data-th="ที่ปรึกษาธุรกิจและธุรกรรม">Corporate &amp; transaction advisory</strong><p data-en="M&amp;A support, negotiations, due diligence coordination and board-level analysis." data-th="สนับสนุน M&amp;A การเจรจา ประสานงาน Due Diligence และการวิเคราะห์สำหรับผู้บริหาร">M&amp;A support, negotiations, due diligence coordination and board-level analysis.</p></div></div>
-            <div class="credential"><span class="credential-index">02</span><div><strong data-en="Analytical &amp; financial discipline" data-th="ความเชี่ยวชาญด้านการเงินและวิเคราะห์">Analytical &amp; financial discipline</strong><p data-en="Valuation, feasibility, financial modeling, capital structuring and risk assessment." data-th="ประเมินมูลค่า วิเคราะห์ความเป็นไปได้ Financial Modeling โครงสร้างเงินทุน และความเสี่ยง">Valuation, feasibility, financial modeling, capital structuring and risk assessment.</p></div></div>
+            <div class="credential"><span class="credential-index">01</span><div><strong data-en="Corporate and transaction advisory" data-th="ที่ปรึกษาธุรกิจและธุรกรรม">Corporate and transaction advisory</strong><p data-en="Transaction advisory, negotiations, due diligence coordination and board-level analysis." data-th="สนับสนุน การทำธุรกรรม การเจรจา ประสานงาน Due Diligence และการวิเคราะห์สำหรับผู้บริหาร">Transaction advisory, negotiations, due diligence coordination and board-level analysis.</p></div></div>
+            <div class="credential"><span class="credential-index">02</span><div><strong data-en="Financial analysis and structuring" data-th="ความเชี่ยวชาญด้านการเงินและวิเคราะห์">Financial analysis and structuring</strong><p data-en="Valuation, feasibility, financial modeling, capital structuring and risk assessment." data-th="ประเมินมูลค่า วิเคราะห์ความเป็นไปได้ Financial Modeling โครงสร้างเงินทุน และความเสี่ยง">Valuation, feasibility, financial modeling, capital structuring and risk assessment.</p></div></div>
             <div class="credential"><span class="credential-index">03</span><div><strong data-en="Sector-informed perspective" data-th="ความเข้าใจธุรกิจหลายอุตสาหกรรม">Sector-informed perspective</strong><p data-en="Experience across energy, logistics, manufacturing, infrastructure and consumer sectors." data-th="ประสบการณ์ในอุตสาหกรรมพลังงาน โลจิสติกส์ การผลิต โครงสร้างพื้นฐาน และสินค้าอุปโภคบริโภค">Experience across energy, logistics, manufacturing, infrastructure and consumer sectors.</p></div></div>
           </div>
         </div>
@@ -200,20 +341,20 @@
       <div class="container">
         <div class="process-heading"><div><div class="eyebrow light" data-en="HOW WE WORK" data-th="ขั้นตอนการทำงาน">HOW WE WORK</div><h2 id="process-title" data-en="From first review<br>to informed decisions." data-th="จากคัดกรองเบื้องต้น<br>สู่การพิจารณาอย่างรอบคอบ">From first review<br>to informed decisions.</h2></div><p data-en="A structured origination process. KS Capital prepares and coordinates the opportunity; the lending or investment decision always rests with the capital provider." data-th="การจัดหาแหล่งทุนอย่างเป็นระบบ KS Capital วิเคราะห์ เตรียมข้อมูล และประสานงาน โดยผู้ให้ทุนเป็นผู้ตัดสินใจอนุมัติสินเชื่อด้วยตนเอง">A structured origination process. KS Capital prepares and coordinates the opportunity; the lending or investment decision always rests with the capital provider.</p></div>
         <div class="process-list">
-          <details class="process-step"><summary><span class="step-no">01</span><span class="step-title" data-en="Documents &amp; discovery" data-th="รับเอกสารและทำความเข้าใจธุรกิจ">Documents &amp; discovery</span><span class="step-owner">KS CAPITAL</span><span class="plus" aria-hidden="true"></span></summary><div class="step-detail" data-en="We understand the funding purpose and request corporate documents, financial statements and other relevant information." data-th="ทำความเข้าใจวัตถุประสงค์การใช้เงิน และขอเอกสารบริษัท งบการเงิน และข้อมูลประกอบที่เกี่ยวข้อง">We understand the funding purpose and request corporate documents, financial statements and other relevant information.</div></details>
-          <details class="process-step"><summary><span class="step-no">02</span><span class="step-title" data-en="Preliminary screening &amp; DD" data-th="คัดกรองและตรวจสอบเบื้องต้น">Preliminary screening &amp; DD</span><span class="step-owner">KS CAPITAL</span><span class="plus" aria-hidden="true"></span></summary><div class="step-detail" data-en="We review the business, financial performance, cash-flow visibility, debt capacity, security and key risks. Material information gaps are flagged early." data-th="วิเคราะห์ธุรกิจ ผลการดำเนินงาน กระแสเงินสด ความสามารถชำระหนี้ หลักประกัน และความเสี่ยงที่สำคัญ พร้อมระบุข้อมูลที่ยังขาด">We review the business, financial performance, cash-flow visibility, debt capacity, security and key risks. Material information gaps are flagged early.</div></details>
-          <details class="process-step"><summary><span class="step-no">03</span><span class="step-title" data-en="Financing fit &amp; structuring" data-th="ประเมินประเภทสินเชื่อและวางโครงสร้าง">Financing fit &amp; structuring</span><span class="step-owner">KS CAPITAL</span><span class="plus" aria-hidden="true"></span></summary><div class="step-detail" data-en="We assess appropriate facility types and prepare credit analysis, indicative transaction structures and supporting financial information." data-th="ประเมินว่าเหมาะกับเงินกู้ประเภทใด จัดทำการวิเคราะห์เครดิต เสนอโครงสร้างดีลเบื้องต้น และเตรียมข้อมูลทางการเงินประกอบ">We assess appropriate facility types and prepare credit analysis, indicative transaction structures and supporting financial information.</div></details>
-          <details class="process-step"><summary><span class="step-no">04</span><span class="step-title" data-en="Selective lender &amp; investor matching" data-th="คัดเลือกผู้ให้กู้และนักลงทุนที่เหมาะสม">Selective lender &amp; investor matching</span><span class="step-owner">KS CAPITAL</span><span class="plus" aria-hidden="true"></span></summary><div class="step-detail" data-en="We prepare a clear submission and approach suitable third-party lenders or private credit investors whose mandates align with the opportunity." data-th="จัดทำเอกสารนำเสนอ และติดต่อผู้ให้กู้หรือนักลงทุน Private Credit ภายนอกที่มีนโยบายและเกณฑ์สอดคล้องกับดีล">We prepare a clear submission and approach suitable third-party lenders or private credit investors whose mandates align with the opportunity.</div></details>
+          <details class="process-step"><summary><span class="step-no">01</span><span class="step-title" data-en="Document review and discovery" data-th="รับเอกสารและทำความเข้าใจธุรกิจ">Document review and discovery</span><span class="step-owner">KS CAPITAL</span><span class="plus" aria-hidden="true"></span></summary><div class="step-detail" data-en="We understand the funding purpose and request corporate documents, financial statements and other relevant information." data-th="ทำความเข้าใจวัตถุประสงค์การใช้เงิน และขอเอกสารบริษัท งบการเงิน และข้อมูลประกอบที่เกี่ยวข้อง">We understand the funding purpose and request corporate documents, financial statements and other relevant information.</div></details>
+          <details class="process-step"><summary><span class="step-no">02</span><span class="step-title" data-en="Screening and initial due diligence" data-th="คัดกรองและตรวจสอบเบื้องต้น">Screening and initial due diligence</span><span class="step-owner">KS CAPITAL</span><span class="plus" aria-hidden="true"></span></summary><div class="step-detail" data-en="We review the business, financial performance, cash-flow visibility, debt capacity, security and key risks. Material information gaps are flagged early." data-th="วิเคราะห์ธุรกิจ ผลการดำเนินงาน กระแสเงินสด ความสามารถชำระหนี้ หลักประกัน และความเสี่ยงที่สำคัญ พร้อมระบุข้อมูลที่ยังขาด">We review the business, financial performance, cash-flow visibility, debt capacity, security and key risks. Material information gaps are flagged early.</div></details>
+          <details class="process-step"><summary><span class="step-no">03</span><span class="step-title" data-en="Financing fit and structuring" data-th="ประเมินประเภทสินเชื่อและวางโครงสร้าง">Financing fit and structuring</span><span class="step-owner">KS CAPITAL</span><span class="plus" aria-hidden="true"></span></summary><div class="step-detail" data-en="We assess appropriate facility types and prepare credit analysis, indicative transaction structures and supporting financial information." data-th="ประเมินว่าเหมาะกับเงินกู้ประเภทใด จัดทำการวิเคราะห์เครดิต เสนอโครงสร้างดีลเบื้องต้น และเตรียมข้อมูลทางการเงินประกอบ">We assess appropriate facility types and prepare credit analysis, indicative transaction structures and supporting financial information.</div></details>
+          <details class="process-step"><summary><span class="step-no">04</span><span class="step-title" data-en="Lender and investor matching" data-th="คัดเลือกผู้ให้กู้และนักลงทุนที่เหมาะสม">Lender and investor matching</span><span class="step-owner">KS CAPITAL</span><span class="plus" aria-hidden="true"></span></summary><div class="step-detail" data-en="We prepare a clear submission and approach suitable third-party lenders or private credit investors whose mandates align with the opportunity." data-th="จัดทำเอกสารนำเสนอ และติดต่อผู้ให้กู้หรือนักลงทุน Private Credit ภายนอกที่มีนโยบายและเกณฑ์สอดคล้องกับดีล">We prepare a clear submission and approach suitable third-party lenders or private credit investors whose mandates align with the opportunity.</div></details>
           <details class="process-step"><summary><span class="step-no">05</span><span class="step-title" data-en="Investor's go / no-go decision" data-th="ผู้ให้ทุนพิจารณาเดินหน้าหรือไม่">Investor's go / no-go decision</span><span class="step-owner" data-en="CAPITAL PROVIDER" data-th="ผู้ให้ทุน">CAPITAL PROVIDER</span><span class="plus" aria-hidden="true"></span></summary><div class="step-detail" data-en="The capital provider independently decides whether to advance to detailed due diligence or decline the opportunity. A decline may end the process or require restructuring." data-th="ผู้ให้ทุนเป็นผู้ตัดสินใจโดยอิสระว่าจะดำเนิน Due Diligence เชิงลึกหรือปฏิเสธดีล หากไม่เดินหน้าอาจยุติกระบวนการหรือปรับโครงสร้างใหม่">The capital provider independently decides whether to advance to detailed due diligence or decline the opportunity. A decline may end the process or require restructuring.</div></details>
           <details class="process-step"><summary><span class="step-no">06</span><span class="step-title" data-en="Full lender due diligence" data-th="ตรวจสอบเชิงลึกโดยผู้ให้ทุน">Full lender due diligence</span><span class="step-owner" data-en="CAPITAL PROVIDER" data-th="ผู้ให้ทุน">CAPITAL PROVIDER</span><span class="plus" aria-hidden="true"></span></summary><div class="step-detail" data-en="If interested, the lender conducts its own due diligence and credit review. KS Capital coordinates information requests and communication as appropriate." data-th="เมื่อผู้ให้ทุนสนใจ ผู้ให้ทุนจะตรวจสอบเชิงลึกและพิจารณาเครดิตตามกระบวนการของตน โดย KS Capital ช่วยประสานข้อมูลและการสื่อสาร">If interested, the lender conducts its own due diligence and credit review. KS Capital coordinates information requests and communication as appropriate.</div></details>
-          <details class="process-step"><summary><span class="step-no">07</span><span class="step-title" data-en="Term sheet &amp; execution" data-th="Term Sheet และดำเนินธุรกรรม">Term sheet &amp; execution</span><span class="step-owner" data-en="CAPITAL PROVIDER" data-th="ผู้ให้ทุน">CAPITAL PROVIDER</span><span class="plus" aria-hidden="true"></span></summary><div class="step-detail" data-en="Subject to satisfactory review, the capital provider may issue a term sheet. Final terms, credit approval, legal documentation and disbursement remain subject to its independent process." data-th="หากผลพิจารณาเป็นที่พอใจ ผู้ให้ทุนอาจออก Term Sheet ทั้งนี้เงื่อนไขสุดท้าย การอนุมัติ สัญญา และการเบิกจ่ายยังขึ้นอยู่กับกระบวนการของผู้ให้ทุน">Subject to satisfactory review, the capital provider may issue a term sheet. Final terms, credit approval, legal documentation and disbursement remain subject to its independent process.</div></details>
+          <details class="process-step"><summary><span class="step-no">07</span><span class="step-title" data-en="Term sheet and execution" data-th="Term Sheet และดำเนินธุรกรรม">Term sheet and execution</span><span class="step-owner" data-en="CAPITAL PROVIDER" data-th="ผู้ให้ทุน">CAPITAL PROVIDER</span><span class="plus" aria-hidden="true"></span></summary><div class="step-detail" data-en="Subject to satisfactory review, the capital provider may issue a term sheet. Final terms, credit approval, legal documentation and disbursement remain subject to its independent process." data-th="หากผลพิจารณาเป็นที่พอใจ ผู้ให้ทุนอาจออก Term Sheet ทั้งนี้เงื่อนไขสุดท้าย การอนุมัติ สัญญา และการเบิกจ่ายยังขึ้นอยู่กับกระบวนการของผู้ให้ทุน">Subject to satisfactory review, the capital provider may issue a term sheet. Final terms, credit approval, legal documentation and disbursement remain subject to its independent process.</div></details>
         </div>
         <p class="process-note" data-en="Click each step for details. The process may vary by transaction type and lender requirements." data-th="กดแต่ละขั้นตอนเพื่ออ่านรายละเอียด กระบวนการจริงอาจแตกต่างกันตามประเภทดีลและเกณฑ์ของผู้ให้ทุน">Click each step for details. The process may vary by transaction type and lender requirements.</p>
       </div>
     </section>
     <section class="timing" aria-labelledby="timing-title"><div class="container"><div class="timing-grid"><div><div class="eyebrow dark" data-en="INDICATIVE TIMELINE" data-th="ระยะเวลาโดยประมาณ">INDICATIVE TIMELINE</div><h2 id="timing-title" data-en="Efficient preparation.<br>Realistic expectations." data-th="เตรียมการอย่างมีระบบ<br>บนกรอบเวลาที่ชัดเจน">Efficient preparation.<br>Realistic expectations.</h2></div><div class="timing-metric"><div class="cap" data-en="SHORT-TERM FINANCING" data-th="เงินกู้ระยะสั้น">SHORT-TERM FINANCING</div><div class="number" data-en="≤ 1 <span>month</span>" data-th="≤ 1 <span>เดือน</span>">≤ 1 <span>month</span></div></div><div class="timing-metric"><div class="cap" data-en="LONG-TERM FINANCING" data-th="เงินกู้ระยะยาว">LONG-TERM FINANCING</div><div class="number" data-en="≤ 4 <span>months</span>" data-th="≤ 4 <span>เดือน</span>">≤ 4 <span>months</span></div></div></div><p class="timing-note" data-en="*Indicative targets based on complete, timely client documentation. Actual timing is dependent on lender interest, due diligence, credit approval, legal documentation and funding procedures. These figures do not constitute a commitment or guarantee of a term sheet, approval or disbursement." data-th="*เป็นกรอบเวลาเป้าหมายภายใต้สมมติฐานว่าลูกค้าส่งข้อมูลครบถ้วนและตรงเวลา ระยะเวลาจริงขึ้นอยู่กับความสนใจของผู้ให้ทุน การตรวจสอบเชิงลึก การอนุมัติ การจัดทำสัญญา และการเบิกจ่าย ไม่ใช่การรับประกัน Term Sheet การอนุมัติ หรือการได้รับเงินทุน">*Indicative targets based on complete, timely client documentation. Actual timing is dependent on lender interest, due diligence, credit approval, legal documentation and funding procedures. These figures do not constitute a commitment or guarantee of a term sheet, approval or disbursement.</p></div></section>
-    <section class="work" id="work" aria-labelledby="work-title"><div class="container"><div class="section-heading"><div><div class="eyebrow dark" data-en="OUR WAY OF THINKING" data-th="แนวทางการวิเคราะห์">OUR WAY OF THINKING</div><h2 id="work-title" data-en="Substance before presentation." data-th="ความเข้าใจที่แท้จริง มาก่อนการนำเสนอ">Substance before presentation.</h2></div><p class="aside" data-en="We focus on the information that allows decision-makers to assess a financing opportunity with greater clarity." data-th="เราให้ความสำคัญกับข้อมูลที่ช่วยให้ผู้ให้ทุนสามารถประเมินโอกาสทางการเงินได้อย่างชัดเจน">We focus on the information that allows decision-makers to assess a financing opportunity with greater clarity.</p></div><div class="work-grid"><div class="work-card"><div class="work-image"><img loading="lazy" src="assets/architecture-glass.jpg" alt="Minimal glass architecture"></div><div class="work-meta"><h3 data-en="Credit-first assessment" data-th="ประเมินโดยยึดความเสี่ยงเครดิต">Credit-first assessment</h3><span>01 / ANALYSIS</span></div><p class="work-caption" data-en="Cash-flow visibility, repayment capacity, downside scenarios, security and material risk factors." data-th="วิเคราะห์กระแสเงินสด ความสามารถชำระหนี้ สถานการณ์ด้านลบ หลักประกัน และความเสี่ยงที่สำคัญ">Cash-flow visibility, repayment capacity, downside scenarios, security and material risk factors.</p></div><div class="work-card"><div class="work-image"><img loading="lazy" src="assets/operations.jpg" alt="Orderly modern logistics architecture"></div><div class="work-meta"><h3 data-en="Decision-ready documentation" data-th="ข้อมูลพร้อมสำหรับการพิจารณา">Decision-ready documentation</h3><span>02 / EXECUTION</span></div><p class="work-caption" data-en="Focused financial analysis, financing structures, investment memos and organized supporting materials." data-th="ข้อมูลวิเคราะห์การเงิน โครงสร้างเงินทุน บันทึกการลงทุน และเอกสารสนับสนุนที่จัดระบบอย่างเหมาะสม">Focused financial analysis, financing structures, investment memos and organized supporting materials.</p></div></div></div></section>
-    <section class="cta-section" id="contact"><div class="container cta-inner"><div><div class="eyebrow light" data-en="PRIVATE &amp; CONFIDENTIAL" data-th="พูดคุยอย่างเป็นส่วนตัว">PRIVATE &amp; CONFIDENTIAL</div><h2 data-en="Every opportunity<br>begins with a conversation." data-th="ทุกโอกาสเริ่มต้น<br>จากการพูดคุย">Every opportunity<br>begins with a conversation.</h2><p data-en="Looking for a structured financing solution or exploring a capital partnership? Speak with KS Capital to discuss the opportunity in confidence." data-th="กำลังมองหาทางเลือกเงินทุนหรือสนใจร่วมมือด้าน Private Credit? ติดต่อ KS Capital เพื่อพูดคุยรายละเอียดเบื้องต้น">Looking for a structured financing solution or exploring a capital partnership? Speak with KS Capital to discuss the opportunity in confidence.</p></div><a class="outline-link" href="https://wa.me/66902642618?text=Hello%20KS%20Capital%2C%20I%20would%20like%20to%20discuss%20a%20private%20credit%20financing%20opportunity." target="_blank" rel="noopener noreferrer"><span data-en="Get in touch" data-th="ติดต่อเรา">Get in touch</span><span class="arrow" aria-hidden="true">↗</span></a></div></section>
+    <section class="work" id="work" aria-labelledby="work-title"><div class="container"><div class="section-heading"><div><div class="eyebrow dark" data-en="OUR WAY OF THINKING" data-th="แนวทางการวิเคราะห์">OUR WAY OF THINKING</div><h2 id="work-title" data-en="Substance before presentation." data-th="ความเข้าใจที่แท้จริง มาก่อนการนำเสนอ">Substance before presentation.</h2></div><p class="aside" data-en="We focus on the information that allows decision-makers to assess a financing opportunity with greater clarity." data-th="เราให้ความสำคัญกับข้อมูลที่ช่วยให้ผู้ให้ทุนสามารถประเมินโอกาสทางการเงินได้อย่างชัดเจน">We focus on the information that allows decision-makers to assess a financing opportunity with greater clarity.</p></div><div class="work-grid"><div class="work-card"><div class="work-image"><img loading="lazy" src="assets/architecture-glass.webp?v=2" decoding="async" alt="Minimal glass architecture"></div><div class="work-meta"><h3 data-en="Credit-first assessment" data-th="ประเมินโดยยึดความเสี่ยงเครดิต">Credit-first assessment</h3><span>01 / ANALYSIS</span></div><p class="work-caption" data-en="Cash-flow visibility, repayment capacity, downside scenarios, security and material risk factors." data-th="วิเคราะห์กระแสเงินสด ความสามารถชำระหนี้ สถานการณ์ด้านลบ หลักประกัน และความเสี่ยงที่สำคัญ">Cash-flow visibility, repayment capacity, downside scenarios, security and material risk factors.</p></div><div class="work-card"><div class="work-image"><img loading="lazy" src="assets/operations.webp?v=2" decoding="async" alt="Orderly modern logistics architecture"></div><div class="work-meta"><h3 data-en="Decision-ready documentation" data-th="ข้อมูลพร้อมสำหรับการพิจารณา">Decision-ready documentation</h3><span>02 / EXECUTION</span></div><p class="work-caption" data-en="Focused financial analysis, financing structures, investment memos and organized supporting materials." data-th="ข้อมูลวิเคราะห์การเงิน โครงสร้างเงินทุน บันทึกการลงทุน และเอกสารสนับสนุนที่จัดระบบอย่างเหมาะสม">Focused financial analysis, financing structures, investment memos and organized supporting materials.</p></div></div></div></section>
+    <section class="cta-section" id="contact"><div class="container cta-inner"><div><div class="eyebrow light" data-en="CONFIDENTIAL ENQUIRIES" data-th="พูดคุยอย่างเป็นส่วนตัว">CONFIDENTIAL ENQUIRIES</div><h2 data-en="Every opportunity<br>begins with a conversation." data-th="ทุกโอกาสเริ่มต้น<br>จากการพูดคุย">Every opportunity<br>begins with a conversation.</h2><p data-en="Looking for a structured financing solution or exploring a capital partnership? Speak with KS Capital to discuss the opportunity in confidence." data-th="กำลังมองหาทางเลือกเงินทุนหรือสนใจร่วมมือด้าน Private Credit? ติดต่อ KS Capital เพื่อพูดคุยรายละเอียดเบื้องต้น">Looking for a structured financing solution or exploring a capital partnership? Speak with KS Capital to discuss the opportunity in confidence.</p></div><a class="outline-link" href="https://wa.me/66902642618?text=Hello%20KS%20Capital%2C%20I%20would%20like%20to%20discuss%20a%20private%20credit%20financing%20opportunity." target="_blank" rel="noopener noreferrer"><span data-en="Get in touch" data-th="ติดต่อเรา">Get in touch</span><span class="arrow" aria-hidden="true">↗</span></a></div></section>
   </main>
   <footer><div class="container"><div class="footer-top"><div class="footer-brand">KS Capital</div><div class="footer-nav"><a href="#about" data-en="About" data-th="เกี่ยวกับเรา">About</a><a href="#services" data-en="Expertise" data-th="บริการ">Expertise</a><a href="#process" data-en="Process" data-th="กระบวนการ">Process</a><a href="#contact" data-en="Contact" data-th="ติดต่อ">Contact</a></div></div><div class="footer-bottom"><div class="disclaimer" data-en="KS Capital is an independent financial advisory practice. We are not a direct lender, investment fund or fund manager. Financing decisions and terms are determined solely by third-party capital providers. Information on this site is general and does not constitute a financing offer or commitment." data-th="KS Capital เป็นที่ปรึกษาทางการเงินอิสระ ไม่ใช่ผู้ให้กู้ กองทุน หรือผู้จัดการกองทุน การอนุมัติเงินทุนและเงื่อนไขเป็นดุลพินิจของผู้ให้ทุนภายนอก ข้อมูลบนเว็บไซต์เป็นข้อมูลทั่วไป มิใช่ข้อเสนอหรือข้อผูกพันในการให้เงินทุน">KS Capital is an independent financial advisory practice. We are not a direct lender, investment fund or fund manager. Financing decisions and terms are determined solely by third-party capital providers. Information on this site is general and does not constitute a financing offer or commitment.</div><div>© <span id="year">2026</span> KS Capital · Thailand</div></div></div></footer>
   <script>
