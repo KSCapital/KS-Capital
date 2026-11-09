@@ -1,3 +1,5 @@
-KS Capital website - GitHub deployment
+KS Capital mobile layout fix
 
-Upload index.html to the ROOT of the existing KSCapital/KS-Capital repository, replacing the old index.html. Commit to the main branch. Images are embedded in index.html. No separate assets folder is required for this file. Keep other existing repository files unchanged.
+Upload index.html to the root of your KSCapital/KS-Capital GitHub repository and commit to the main branch. Embedded images require no separate assets.
+
+Changes: responsive 1-column process, unclipped evidence cards, flexible service cards, non-overlay mobile navigation, no hero CTA or removed eyebrow.
