@@ -1,6 +1,3 @@
-KS Capital Updated — 9 Nov 2026
+KS Capital website - GitHub deployment
 
-- The mountain photo is a NEW generated image exported to 3840 px; this is not a native-4K camera photograph.
-- Supporting typography is larger throughout on desktop and mobile, including Thai labels.
-- To publish: upload index.html AND assets/ folder together to GitHub repository root.
-- For offline local preview open KS_Capital_Clear_4K_Standalone.html (all images embedded).
+Upload index.html to the ROOT of the existing KSCapital/KS-Capital repository, replacing the old index.html. Commit to the main branch. Images are embedded in index.html. No separate assets folder is required for this file. Keep other existing repository files unchanged.
